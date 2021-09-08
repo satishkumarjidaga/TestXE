@@ -2,6 +2,7 @@ package com.xeTests;
 
 import com.xeBaseTest.XeTest;
 import com.xePages.XePage;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 import com.test.commonuties.ConfigFileReader;
 import org.testng.annotations.BeforeClass;
@@ -20,15 +21,15 @@ public class exTest extends XeTest {
 
 	@Test
 	public void goToPortal() throws InterruptedException {
-//		xePage = new xePage(getDriver());
-		xePage.currencyFrom("");
+		xePage = new XePage(getDriver());
+		//xePage.currencyFrom("EUR – Euro");
 		Thread.sleep(5000);
 
 
 		xePage.btnAccept();
 		Thread.sleep(5000);
 		xePage.enterAmount();
-		//xePage.enterAmount();
+		xePage.btnClosepopUP();
 		xePage.currencyFrom("EUR – Euro");
 		//xePage.currencyFrom("USD - US Dollar");
 		xePage.currencyTo("USD – US Dollar");
