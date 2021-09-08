@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d8da8b6-f75d-4462-a255-5c912b0d281b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xeBaseTest/XeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xeBaseTest/XeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xePages/XePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xePages/XePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xeTests/exTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xeTests/exTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="4d8da8b6-f75d-4462-a255-5c912b0d281b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -235,10 +230,28 @@
       <option name="presentableId" value="Default" />
       <updated>1626019129116</updated>
     </task>
+    <task id="LOCAL-00001" summary="updated">
+      <created>1631105552844</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631105552844</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated">
+      <created>1631105701018</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631105701018</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="uodated" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="388" y="91" key="#&lt;default&gt;" timestamp="1626026311953">
@@ -249,10 +262,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="388" y="87" key="#GetRequestTest_and_1_more/0.0.1440.900@0.0.1440.900" timestamp="1626026216374" />
-    <state x="344" y="64" key="CommitChangelistDialog2" timestamp="1631105552738">
+    <state x="344" y="64" key="CommitChangelistDialog2" timestamp="1631105700892">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="344" y="64" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1631105552738" />
+    <state x="344" y="64" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1631105700892" />
     <state width="1398" height="318" key="GridCell.Tab.0.bottom" timestamp="1631105180630">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -293,15 +306,19 @@
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1626105480286" />
     <state width="1398" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1631092879858" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1631105561367">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1631105714446">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1631105561367" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1631105714446" />
     <state x="397" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1631093299708">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1626244890607" />
     <state x="397" y="298" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1631093299708" />
+    <state x="484" y="363" key="git4idea.ui.GitResetDialog" timestamp="1631105736774">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="484" y="363" key="git4idea.ui.GitResetDialog/0.23.1440.877@0.23.1440.877" timestamp="1631105736774" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/travelport$_default_.ic" NAME="&lt;default&gt; Coverage Results" MODIFIED="1626026323892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
