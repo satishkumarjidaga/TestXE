@@ -1,15 +1,14 @@
-package com.xeTests;
+package com.xeAcceptance;
 
 import com.xeBaseTest.XeTest;
 import com.xePages.XePage;
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 import com.test.commonuties.ConfigFileReader;
 import org.testng.annotations.BeforeClass;
 
-public class exTest extends XeTest {
+public class XEAcceptanceTest extends XeTest {
 	private XePage xePage;
 	private XeTest xeTest;
 	ConfigFileReader config = new ConfigFileReader();
@@ -24,9 +23,7 @@ public class exTest extends XeTest {
 	@Test
 	public void currencyConverter() throws Throwable {
 		xePage = new XePage(getDriver());
-		// xePage.currencyFrom("EUR – Euro");
 		Thread.sleep(5000);
-
 		xePage.btnAccept();
 		Thread.sleep(5000);
 		xePage.enterAmount();

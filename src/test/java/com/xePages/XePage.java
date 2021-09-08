@@ -76,9 +76,11 @@ public class XePage {
         selectFrom(option).click();
     }
 
-    public void currencyTo(String arg1) {
-        Select select = new Select(dpocurrencyTo);
-        select.selectByVisibleText(arg1);
+    public void currencyTo(String option) throws Throwable {
+        waiter(dpocurrencyTo);
+        dpocurrencyTo.click();
+        waiter(selectFrom(option));
+        selectFrom(option).click();
 
     }
 

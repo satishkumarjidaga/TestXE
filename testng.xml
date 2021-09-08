@@ -10,7 +10,7 @@
 
     <test thread-count="5" name="Test">
         <classes>
-            <class name="com.xeTests.exTest"/>
+            <class name="com.xeAcceptance.XEAcceptanceTest"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
