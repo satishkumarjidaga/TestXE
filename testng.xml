@@ -10,8 +10,7 @@
 
     <test thread-count="5" name="Test">
         <classes>
-            <class name="com.travelportTests.GetRequestTest"/>
-            <class name="com.travelportTests.PostRequestTest"/>
+            <class name="com.expleoTest.expleoTest"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
