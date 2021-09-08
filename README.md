@@ -1,4 +1,4 @@
-# TestXESelenium-Java-TestNG Framework
+# TestXE project - Selenium-Java-TestNG-pagefactory Framework
 A Maven framework in which to build Selenium tests written in Java with extended reports of test results.
 
 Project is to test for 5 iteration of currency converter with assert
