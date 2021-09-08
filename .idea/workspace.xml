@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d8da8b6-f75d-4462-a255-5c912b0d281b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver&amp;Jars/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xeBaseTest/XeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xePages/XePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configs/Config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Configs/Config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/travelportTests/GetRequestTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/travelportTests/PostRequestTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/travelport.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/travelportTests/GetRequestTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/travelportTests/PostRequestTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/travelport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/travelport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travelport.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="4d8da8b6-f75d-4462-a255-5c912b0d281b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -293,6 +276,10 @@
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1626105480286" />
     <state width="1398" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1631092879858" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1631094101989">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1631094101989" />
     <state x="397" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1631093299708">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
