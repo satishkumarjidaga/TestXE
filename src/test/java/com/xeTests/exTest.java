@@ -3,16 +3,18 @@ package com.xeTests;
 import com.xeBaseTest.XeTest;
 import com.xePages.XePage;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 import com.test.commonuties.ConfigFileReader;
 import org.testng.annotations.BeforeClass;
-
 
 public class exTest extends XeTest {
 	private XePage xePage;
 	private XeTest xeTest;
 	ConfigFileReader config = new ConfigFileReader();
 	String url = config.getConfigvalue("currencyconverterURL");
+
 	@BeforeClass
 	public void setUp() {
 		getUrl(url);
@@ -20,40 +22,39 @@ public class exTest extends XeTest {
 	}
 
 	@Test
-	public void goToPortal() throws InterruptedException {
+	public void currencyConverter() throws Throwable {
 		xePage = new XePage(getDriver());
-		//xePage.currencyFrom("EUR – Euro");
+		// xePage.currencyFrom("EUR – Euro");
 		Thread.sleep(5000);
-
 
 		xePage.btnAccept();
 		Thread.sleep(5000);
 		xePage.enterAmount();
 		xePage.btnClosepopUP();
-		xePage.currencyFrom("EUR – Euro");
-		//xePage.currencyFrom("USD - US Dollar");
-		xePage.currencyTo("USD – US Dollar");
-		xePage.coverterSubmit();
+		String[] elements = { "US Dollar", "Euro", "British Pound", "Indian Rupee","Australian Dollar" };
+
+		for (int i = 0; i <= elements.length - 1; i++) {
+
+			xePage.currencyFrom(elements[i]);
+			Thread.sleep(1000);
+//			xePage.currencyFrom("EUR – Euro");
+
+			if(i==0) {
+				xePage.coverterSubmit();
+			}
+
+
+			Assert.assertTrue(xePage.lblFromResultCurrency().contains(elements[i]));
+			Assert.assertTrue(xePage.lblToResultCurrency().contains("Euro"));
+		}
+
+	}
+	@AfterTest
+
+	public void closeBrowser(){
+
+		driver.quit();
 	}
 }
 
-//	@Test
-//	public void currencyTest() throws InterruptedException {
-//		//test = new XePage(driver);
-//
-//		Thread.sleep(5000);
-//
-//		WebElement cookiesButton = driver.findElement(By.xpath("//button[contains(text(),'Accept')]"));
-//
-//		cookiesButton.click();
-//		Thread.sleep(5000);
-//		driver.findElement(By.xpath("//input[@id='amount']")).sendKeys("100");
-//		//xePage.enterAmount();
-//		test.currencyFrom("EUR – Euro");
-//		//xePage.currencyFrom("USD - US Dollar");
-//		test.currencyTo("USD – US Dollar");
-//		test.coverterSubmit();
-//
-//		driver.quit();
-//
-//	}
+

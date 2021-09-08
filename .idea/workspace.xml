@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d8da8b6-f75d-4462-a255-5c912b0d281b" name="Default Changelist" comment="" />
+    <list default="true" id="4d8da8b6-f75d-4462-a255-5c912b0d281b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test-output/xeReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/reports/ExtentReporterNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/reports/ExtentReporterNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xePages/XePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xePages/XePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xeTests/exTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xeTests/exTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/reports/ExtentReporterNG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/reports/ExtentReporterNG.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/travelport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +52,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager" selected="TestNG.exTest.goToPortal">
+  <component name="RunManager" selected="TestNG.exTest">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="xeTest" />
       <option name="VM_PARAMETERS" />
@@ -124,20 +133,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="&lt;default&gt; (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/rajanijidaga/eclipse-workspace/xeTest/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="xeTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="exTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="xeTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xeTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xeTests" />
+      <option name="MAIN_CLASS_NAME" value="com.xeTests.exTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exTest.currencyConverter" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="xeTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xeTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xeTests" />
+      <option name="MAIN_CLASS_NAME" value="com.xeTests.exTest" />
+      <option name="METHOD_NAME" value="currencyConverter" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -179,31 +213,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="expleoTest.currencyTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="xeTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.expleoTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.expleoTests" />
-      <option name="MAIN_CLASS_NAME" value="com.expleoTests.expleoTest" />
-      <option name="METHOD_NAME" value="currencyTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.exTest" />
+        <item itemvalue="TestNG.exTest.currencyConverter" />
         <item itemvalue="TestNG.exTest.goToPortal" />
+        <item itemvalue="TestNG./Users/rajanijidaga/eclipse-workspace/xeTest/testng.xml" />
         <item itemvalue="TestNG.expleoTest" />
-        <item itemvalue="TestNG.expleoTest.currencyTest" />
-        <item itemvalue="TestNG.&lt;default&gt; (1)" />
-        <item itemvalue="TestNG.&lt;default&gt;" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631105701018</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated">
+      <created>1631105770746</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1631105770746</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -262,30 +285,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="388" y="87" key="#GetRequestTest_and_1_more/0.0.1440.900@0.0.1440.900" timestamp="1626026216374" />
-    <state x="344" y="64" key="CommitChangelistDialog2" timestamp="1631105700892">
+    <state x="344" y="64" key="CommitChangelistDialog2" timestamp="1631105770633">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="344" y="64" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1631105700892" />
-    <state width="1398" height="318" key="GridCell.Tab.0.bottom" timestamp="1631105180630">
+    <state x="344" y="64" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1631105770633" />
+    <state width="1398" height="318" key="GridCell.Tab.0.bottom" timestamp="1631114091455">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1626105480285" />
-    <state width="1398" height="318" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1631105180630" />
-    <state width="1398" height="318" key="GridCell.Tab.0.center" timestamp="1631105180630">
+    <state width="1398" height="318" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1631114091455" />
+    <state width="1398" height="318" key="GridCell.Tab.0.center" timestamp="1631114091455">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1626105480282" />
-    <state width="1398" height="318" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1631105180630" />
-    <state width="1398" height="318" key="GridCell.Tab.0.left" timestamp="1631105180629">
+    <state width="1398" height="318" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1631114091455" />
+    <state width="1398" height="318" key="GridCell.Tab.0.left" timestamp="1631114091454">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1626105480281" />
-    <state width="1398" height="318" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1631105180629" />
-    <state width="1398" height="318" key="GridCell.Tab.0.right" timestamp="1631105180630">
+    <state width="1398" height="318" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1631114091454" />
+    <state width="1398" height="318" key="GridCell.Tab.0.right" timestamp="1631114091455">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1626105480283" />
-    <state width="1398" height="318" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1631105180630" />
+    <state width="1398" height="318" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1631114091455" />
     <state width="1398" height="285" key="GridCell.Tab.1.bottom" timestamp="1631092879858">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -306,10 +329,10 @@
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1626105480286" />
     <state width="1398" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1631092879858" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1631105714446">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1631105830256">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1631105714446" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1631105830256" />
     <state x="397" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1631093299708">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

@@ -2,12 +2,10 @@ package com.xePages;
 
 import com.xeBaseTest.XeTest;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -17,8 +15,16 @@ public class XePage {
     @FindBy(xpath = "//input[@id='amount']")
     private WebElement txtamountFeild;
 
-    @FindBy(xpath = "//button[@id='midmarketFromCurrency']")
+    @FindBy(xpath = "//input[@id='midmarketFromCurrency']")
     private WebElement dpocurrencyFrom;
+
+    XeTest base = new XeTest();
+
+    public WebElement selectFrom(String val) throws Throwable {
+        Thread.sleep(1000);
+        return base.getDriver().findElement(By.xpath("//span[contains(text(),'" + val + "')]"));
+    }
+    // span[contains(text(),'US Dollar')]
 
     @FindBy(xpath = "//div[@id='midmarketToCurrency-descriptiveText']")
     private WebElement dpocurrencyTo;
@@ -31,6 +37,11 @@ public class XePage {
 
     @FindBy(xpath = "//button[@aria-label='close']")
     private WebElement btnClosepopUP;
+
+    @FindBy(xpath = "//input[@id='midmarketToCurrency']/following::p[1]")
+    private WebElement lblFromResultCurrency;
+    @FindBy(xpath = "//input[@id='midmarketToCurrency']/following::p[2]")
+    private WebElement lblToResultCurrency;
 
 
 
@@ -52,19 +63,17 @@ public class XePage {
         btnClosepopUP.click();
     }
 
-    public void waiter(WebElement element){
-        WebDriverWait wait = new WebDriverWait(XeTest.getDriver(),10);
+    public void waiter(WebElement element) {
+        WebDriverWait wait = new WebDriverWait(base.getDriver(), 10);
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 
-    public void currencyFrom(String arg1) {
+    public void currencyFrom(String option) throws Throwable {
 
         waiter(dpocurrencyFrom);
-     dpocurrencyFrom.sendKeys(arg1);
-      dpocurrencyFrom.sendKeys(Keys.ENTER);
-//        Select select = new Select(dpocurrencyFrom);
-//        select.selectByVisibleText(arg1);
-
+        dpocurrencyFrom.click();
+        waiter(selectFrom(option));
+        selectFrom(option).click();
     }
 
     public void currencyTo(String arg1) {
@@ -73,12 +82,27 @@ public class XePage {
 
     }
 
-    public void coverterSubmit(){
+    public void coverterSubmit() {
         btnConverter.click();
     }
 
-
-    public void acceptCookiesSubmit(){
+    public void acceptCookiesSubmit() {
         btnAccept.click();
+    }
+
+    public String lblFromResultCurrency() throws InterruptedException {
+
+        //waiter(lblFromResultCurrency);
+        Thread.sleep(2000);
+        System.out.println("Values from system " + lblFromResultCurrency.getText());
+       return lblFromResultCurrency.getText();
+
+    }
+
+    public String lblToResultCurrency(){
+
+        System.out.println("Values from system " + lblToResultCurrency.getText());
+        return lblToResultCurrency.getText();
+
     }
 }
